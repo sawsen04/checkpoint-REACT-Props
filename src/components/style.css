@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap");
+
+.logo {
+  /*border: 1px black solid;*/
+  background-color: white;
+  border-radius: 50px;
+}
+.hero {
+  /*border: 1px black solid;*/
+  display: flex;
+  justify-content: center;
+}
+.hero h1 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  color: white;
+}
+
+.player-container {
+  /*border: 1px black solid;*/
+  height: 580px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card-container {
+  border: 5px solid rgb(122, 103, 19);
+  background-image: url("../assets/bgcard1.jpg");
+  width: 260px;
+  height: auto;
+  border-end-end-radius: 60px;
+  border-top-left-radius: 60px;
+  border-style: double;
+  box-shadow: 40px 40px 40px rgb(122, 103, 19);
+}
+.Block {
+  /*border: 1px white solid;*/
+  display: flex;
+}
+.info {
+  /*border: 2px red solid;*/
+  width: 90px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 5px;
+}
+.first-s {
+  /*border: 1px black solid;*/
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  height: 400px;
+  padding: 50px 50px;
+}
+.second-s {
+  /*border: 1px red solid;*/
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  height: 400px;
+  padding: 50px 50px;
+}
+.card-container h1 {
+  /*border: 1px green solid;*/
+  display: flex;
+  justify-content: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  color: rgb(122, 103, 19);
+}
+audio {
+  width: 150px;
+  background-color: bisque;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  -moz-box-shadow: 2px 2px 4px 0px rgb(122, 103, 19);
+  -webkit-box-shadow: 2px 2px 4px 0px rgb(122, 103, 19);
+  box-shadow: 2px 2px 4px 0px rgb(122, 103, 19);
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border-radius: 7px 7px 7px 7px;
+  border-radius: 7px 7px 7px 7px;
+}
+audio:hover,
+audio:focus,
+audio:active {
+  -webkit-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  transform: scale(1.05);
+}
